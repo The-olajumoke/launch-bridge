@@ -1,9 +1,13 @@
-import './App.css';
+import React from "react";
+import "tailwindcss/tailwind.css";
+import UsersInfo from "./Pages/UsersInfo";
+import "./App.css";
 
 function App() {
   return (
-       <div className="border text-red-500">hello</div>
+    <>
+      <UsersInfo />
+    </>
   );
 }
-
 export default App;
